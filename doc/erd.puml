@@ -1,0 +1,10 @@
+@startuml erd
+    entity User {
+        * id : number
+        --
+        name : string
+        username : string
+        password : string
+        phone : string
+    }
+@enduml
